@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  height: 100vh;
+  font-size: 1.7em;
+  width: 90%;
+  margin: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.section {
+  display: flex;
+  justify-content: stretch;
+  padding: 20px;
+  background: lightcyan;
+}
+
+.closed {
+  color: darkmagenta;
+}
+
+textarea {
+  height: 80px;
+  width: 100%;
+  background: lightgray;
+}
+
+button {
+  display: flex;
+  align-self: center;
+  padding: 20px 30px;
+  border-radius: 3px;
+  background: gold;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+button:hover {
+  background: goldenrod;
+  cursor: pointer;
+}
+
+.error {
+  background: red;
+  padding: 30px;
+  color: white;
+}

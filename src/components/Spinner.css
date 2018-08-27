@@ -1,0 +1,28 @@
+.orbit-spinner {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  margin: auto;
+  border: 0.5em solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.orbit-spinner::before {
+  content: "";
+  position: absolute;
+  top: -0.435em;
+  left: 50%;
+  width: 0.375em;
+  height: 0.375em;
+  transform-origin: 50% 0.9375em;
+  margin-left: -0.1875em;
+  background-color: orange;
+  border-radius: 50%;
+  animation: orbit 2s linear infinite;
+}
+
+@keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}
